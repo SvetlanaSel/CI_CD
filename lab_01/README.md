@@ -61,6 +61,57 @@ docker run hello-world
 
 ### Шаг 4. Пример выполнения задания (Вариант 13 — Metabase)
 
+1. Создание запускающего файла:
+   ```bash
+    nano start_metabase.sh
+    ```
+Содержимое файла:
+```
+#!/bin/bash
+
+docker run -d \
+    -p 3000:3000 \
+    --name metabase \
+    metabase/metabase:latest
+```
+Вывод:
+
+<img width="1144" height="709" alt="image" src="https://github.com/user-attachments/assets/56865b81-439e-414d-9c5b-12b8c3b07239" />
+
+2. Задаем файлу уровень доступа:
+
+<img width="633" height="32" alt="image" src="https://github.com/user-attachments/assets/dd4aa14e-b5d6-4914-9be7-6c669bd5a8aa" />
+
+3. Запуск файла:
+
+```
+./start_metabase.sh
+```
+Вывод:
+
+<img width="635" height="240" alt="image" src="https://github.com/user-attachments/assets/a5db3814-9ff0-46a3-9529-864a93e2b6a7" />
+
+4. Проверка запущенных контейнеров:
+```
+    docker ps
+```
+Вывод:
+
+<img width="838" height="205" alt="image" src="https://github.com/user-attachments/assets/50c86689-8ceb-41c9-b462-95b5732a7374" />
+
+5. Переход к нужному порту (3000):
+
+В браузере перехожу по адресу localhost:3000
+
+Вывод:
+
+<img width="1313" height="827" alt="image" src="https://github.com/user-attachments/assets/99c8c761-c216-416f-b6b9-f08d3724662d" />
+
+Metabase успешно запустился. Прохожу регистрацию:
+
+<img width="1080" height="738" alt="image" src="https://github.com/user-attachments/assets/f4735f01-7791-457a-a426-cc2c3871c48e" />
+
+<img width="1251" height="749" alt="image" src="https://github.com/user-attachments/assets/3757dbcc-4943-451b-aa89-b97c4423b03d" />
 
 
 
