@@ -10,6 +10,10 @@
 
 Задание - 13 - Streamlit. Создать Dashboard на Streamlit. Отобразить заголовок и один график (bar chart) по вашим данным. Правильно настроить CMD и EXPOSE.
 
+Папка с проектом:
+
+- [project.zip](https://github.com/SvetlanaSel/CI_CD/blob/main/lab_02/project.zip)
+
 ---
 ## Ход работы
 
@@ -23,10 +27,11 @@
 - []()
 
 Файл с кодом генерации:
-- []()
+- [generate_data.py](https://github.com/SvetlanaSel/CI_CD/blob/main/lab_02/generate_data.py)
 
 ### Этап 2. Образ Postgres
 
+- [env](https://github.com/SvetlanaSel/CI_CD/blob/main/lab_02/.env)
 
 Меняю параметры файла .env:
 ```
@@ -43,12 +48,12 @@ DB_PORT=5432
 ### Этап 3. Файл загрузки
 
 Создаю файл загрузки под свои данные и задачи:
-- []()
+- [loader.py](https://github.com/SvetlanaSel/CI_CD/blob/main/lab_02/loader.py)
 
 ### Этап 4. Файл визуализации и аналитики
 
 Создаю файл для анализа и создания Dashboard на Streamlit
-- []()
+- [dashboard.py](https://github.com/SvetlanaSel/CI_CD/blob/main/lab_02/dashboard.py)
 
 ### Этап 5. Dockerfile
 
@@ -97,12 +102,12 @@ CMD ["streamlit", "run", "dashboard.py", \
      "--server.headless=true"]
 
 ```
-- []()
+- [Dockerfile](https://github.com/SvetlanaSel/CI_CD/blob/main/lab_02/Dockerfile)
 
 ### Этап 6. Docker compose
 
 Совмещаю все файлы для запуска образа и проведения аналитики в файле:
-- []()
+- [docker-compose.yml](https://github.com/SvetlanaSel/CI_CD/blob/main/lab_02/docker-compose.yml)
 
 Далее запускаю докер:
 
