@@ -118,7 +118,7 @@ CMD ["streamlit", "run", "dashboard.py", \
 
 <img width="810" height="561" alt="image" src="https://github.com/user-attachments/assets/3d2c9e13-51ad-48dd-a5ee-c98080ebf4b8" />
 
-<img width="822" height="580" alt="image" src="https://github.com/user-attachments/assets/78b40632-3c13-43ce-8841-9f7885fbab93" />
+<img width="827" height="544" alt="image" src="https://github.com/user-attachments/assets/46e27be8-1463-431b-aedb-362bca08bea9" />
 
 <img width="788" height="494" alt="image" src="https://github.com/user-attachments/assets/333ab28f-9661-45b2-a010-e458740e4ab3" />
 
