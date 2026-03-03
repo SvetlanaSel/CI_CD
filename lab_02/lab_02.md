@@ -24,7 +24,7 @@
 <img width="1182" height="797" alt="image" src="https://github.com/user-attachments/assets/6e0c3f8a-45d8-402e-bda6-18a8bd2ac4e1" />
 
 Данные успешно сгенерированы и сохранены в файл:
-- []()
+- [inventory.csv](https://github.com/SvetlanaSel/CI_CD/blob/main/lab_02/inventory.csv)
 
 Файл с кодом генерации:
 - [generate_data.py](https://github.com/SvetlanaSel/CI_CD/blob/main/lab_02/generate_data.py)
