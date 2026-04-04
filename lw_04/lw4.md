@@ -709,7 +709,6 @@ spec:
 
 <img width="1702" height="943" alt="image" src="https://github.com/user-attachments/assets/2f0b06ab-844d-482d-97d8-d8b6116bd6ed" />
 
-<img width="697" height="188" alt="image" src="https://github.com/user-attachments/assets/d4f3c4cb-b896-4c79-a6fb-5d63718fca9d" />
 
 ---
 
