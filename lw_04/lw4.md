@@ -546,7 +546,6 @@ docker build -t feedback-frontend:v1 .
 
 <img width="1098" height="632" alt="image" src="https://github.com/user-attachments/assets/01c1ffcb-cb73-470b-9023-08fb7d933fb9" />
 
-<img width="763" height="37" alt="image" src="https://github.com/user-attachments/assets/666e9799-5d82-4f45-a4f7-88efea9632d5" />
 
 ### Шаг 5. Манифесты Kubernetes
 В папке `k8s` 
